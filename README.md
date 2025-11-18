@@ -1,11 +1,12 @@
-# ./INTEL-INTEGRATIONS/
-A repository of example scripts for integrating RH-ISAC threat intel with various security tools. Check out the [RH-ISAC integration documentation hub](https://community.rhisac.org/misp/integrations) on Member Exchange to find more details about each integration, and other possible integration options.
+# ./MISP-INTEGRATIONS/
+A repository of example scripts and documentation that can be used to ingest MISP threat inteligence into various security tools.
 
 > **Warning**
-> Use the content in this repository at your own risk. RH-ISAC will not be held responsible for data loss, nor any other problems resulting from the use of this content. **These scripts are beta versions and intended to be used as an examples.**
+> Use the content in this repository at your own risk. Integration authors will not be held responsible for data loss, nor any other problems resulting from the use of this content. **These scripts are intended to be used as examples, review the content of all scripts before executing them within your environment.**
 
 ## Requirements
-- Python 3.9+
+Typical system requirements will include:
+- Python 3.10+
 - PyMISP `pip install pymisp` (https://github.com/MISP/PyMISP)
 - Application specific modules (depending on the script)
 
