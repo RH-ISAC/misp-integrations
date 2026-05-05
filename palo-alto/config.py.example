@@ -1,0 +1,2 @@
+# Config File for MISP2EDL Script
+misp_config = {"key": "<MISP API KEY HERE>"}
