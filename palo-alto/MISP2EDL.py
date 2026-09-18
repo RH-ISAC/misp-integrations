@@ -111,7 +111,7 @@ def export_iocs_to_file(iocs: list[dict]) -> None:
                 f"{ioc['value']} #{datetime.fromtimestamp(int(ioc['timestamp'])).strftime('%Y-%m-%d')}\n"
             )
         f_urls.close()
-    print(f"Exported {len(ips)} IPs, {len(domains)} domains, and {len(urls)}urls.")
+    print(f"Exported {len(ip_list)} IPs, {len(domain_list)} domains, and {len(url_list)}urls.")
     return
 
 
